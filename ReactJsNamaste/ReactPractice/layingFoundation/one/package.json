@@ -1,5 +1,5 @@
 {
-  "name": "prac1",
+  "name": "one",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,7 +7,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "",
+  "author": "Sarthak Vijayvargiya",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.12.0",
