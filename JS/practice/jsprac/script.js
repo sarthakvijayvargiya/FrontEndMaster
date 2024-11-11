@@ -1,11 +1,9 @@
-// console.log(an);
-// console.log(asquare);
-let an = 10;
+function a() {
+  let c = 10;
+  function b() {
+    console.log(c);
+  }
+  b();
+}
 
-const asquare = (num) => {
-  let ans = num * num;
-  return ans;
-};
-
-let asquare2 = asquare(2);
-let asquare4 = asquare(4);
+a();
