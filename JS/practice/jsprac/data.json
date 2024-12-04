@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1001,
+    "name": " Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1002,
+    "name": "Sarthak ",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1003,
+    "name": "Sarthak Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1004,
+    "name": "Anil Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1005,
+    "name": "Manju Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1006,
+    "name": "Thomas Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1007,
+    "name": "Akshat Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "age": 42,
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1008,
+    "name": "Satyam Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "dob": "26/08/1979"
+  },
+  {
+    "id": 1009,
+    "name": "Sanidhya Vijayvargiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "email": "sss@gmail.com",
+    "address": "Apna Nagar",
+    "mobile": "9584299965",
+    "dob": "26/08/1979"
+  }
+]

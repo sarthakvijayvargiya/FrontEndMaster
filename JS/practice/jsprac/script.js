@@ -1,31 +1,23 @@
-// fuction stat == func dec == normal func dec
-function x(){
-  console.log("x called")
-}
-x();
-// func exp looks like this
-var a = function(){
-  console.log('a called')
-}
+let a1 = 1;
 a();
-
-// anona -- functio which does have nam
-// let a  = function() {
-
-// }
-
-function k(a,b){
-  console.log(a)
-  return b;
+b();
+c();
+d();
+console.log(a1)
+function a() {
+  var a1 = 10;
+  console.log(a1);
 }
-const returnFunc = k(function(){},function(){});
-console.log(returnFunc)
-returnFunc();
 
-
-let start = Date.now(); // Get the current timestamp
-while (Date.now() - start < 5000) {
-  // Busy-wait loop
-  // Do nothing and keep the main thread occupied
+function b() {
+  var a1 = 100;
+  console.log(a1);
 }
-console.log("5 seconds have passed, main thread is unblocked now.");
+
+function c() {
+  a1 = 1000;
+  console.log(a1);
+}
+function d() {
+  console.log(a1);
+}

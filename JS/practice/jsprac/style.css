@@ -1,0 +1,97 @@
+:root {
+  --btn-hover: #add8e6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > button {
+  border-radius: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.header > button:hover {
+  background-color: var(--btn-hover);
+}
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 350;
+  border: 2px solid black;
+}
+
+.employee__list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 350px;
+  overflow-y: scroll;
+}
+.employee__info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.employee__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 700;
+  background-color: antiquewhite;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+.employee__details {
+  padding-left: 5px;
+  border-radius: 3px;
+}
+
+.employee__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  margin-top: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.employee__name:hover,
+.selected {
+  background-color: aqua;
+}
+
+.employee__delete {
+  color: darkred;
+  cursor: pointer;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.employee__eachInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
