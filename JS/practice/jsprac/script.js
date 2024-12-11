@@ -1,23 +1,12 @@
-let a1 = 1;
-a();
+let a =10;
+function b(){
+   a = 20;
+  c();
+  function c(){
+
+    console.log(a);
+  }
+}
+
 b();
-c();
-d();
-console.log(a1)
-function a() {
-  var a1 = 10;
-  console.log(a1);
-}
-
-function b() {
-  var a1 = 100;
-  console.log(a1);
-}
-
-function c() {
-  a1 = 1000;
-  console.log(a1);
-}
-function d() {
-  console.log(a1);
-}
+// console.log(a);
