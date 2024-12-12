@@ -1,12 +1,10 @@
-let a =10;
-function b(){
-   a = 20;
-  c();
-  function c(){
-
+function x() {
+  let a = 1000;
+  function y(){
     console.log(a);
   }
+  return y;
 }
 
-b();
-// console.log(a);
+let k = x();
+k();
