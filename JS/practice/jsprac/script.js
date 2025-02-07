@@ -1,10 +1,18 @@
-function x() {
-  let a = 1000;
-  function y(){
-    console.log(a);
-  }
-  return y;
-}
+const gp = document.querySelector("#grandParentClicked");
+console.log(gp);
 
-let k = x();
-k();
+document.querySelector("#grandParentClicked").addEventListener("click", (e) => {
+
+  console.log("greandparentclicked");
+},true);
+
+document.querySelector("#parentClicked").addEventListener("click", (e) => {
+  console.log("parentClicked");
+  e.stopPropagation();
+
+},false);
+
+document.querySelector("#childClicked").addEventListener("click", (e) => {
+
+  console.log("childClicked");
+},true);

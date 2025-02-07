@@ -95,3 +95,22 @@
     align-items: center;
     height: 100%;
 }
+
+#grandParentClicked{
+  width: 300px;
+  height: 300px;
+  background-color: lightblue; /* Makes it visible */
+  border: 1px solid black; /* Adds a border */
+}
+#parentClicked{
+  width: 200px;
+  height: 200px;
+  background-color: lightblue; /* Makes it visible */
+  border: 1px solid black; /* Adds a border */
+}
+#childClicked{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue; /* Makes it visible */
+  border: 1px solid black; /* Adds a border */
+}
